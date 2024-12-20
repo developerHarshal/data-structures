@@ -7,7 +7,7 @@ export class Queue {
 
   enqueue(element) {
     this.items[this.rear] = element;
-    this.rear++;;
+    this.rear++;
   }
 
   dequeue() {
